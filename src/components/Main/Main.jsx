@@ -1,18 +1,19 @@
-import React from 'react';
-import './Main.css';
-import { assets } from '../../assets/assets';
+import React from "react";
+import "./Main.css";
+import { assets } from "../../assets/assets";
 
 const Main = () => {
   return (
     <div className="main">
       <div className="nav">
         <p className="nav-title">Gemini</p>
-        <img className="user-icon" src={assets.user_icon} alt="User Icon" />
       </div>
 
       <div className="main-container">
         <div className="greet">
-          <p className="greet-hello">Hello, <span>Dev.</span></p>
+          <p className="greet-hello">
+            Hello, <span>Dev.</span>
+          </p>
           <p className="greet-sub">How can I help you today?</p>
         </div>
 
