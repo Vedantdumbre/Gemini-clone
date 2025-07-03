@@ -3,6 +3,7 @@
     min-height: 100vh;
     padding-bottom: 15vh;
     position: absolute;
+    font-family: poppins;
 }
 
 .main .nav {
@@ -22,4 +23,9 @@
 .main-container{
     max-width: 900px;
     margin: auto;
+}
+.cards{
+    display: flex;
+    align-content: center;
+
 }
