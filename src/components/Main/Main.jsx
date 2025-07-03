@@ -35,6 +35,16 @@ const Main = () => {
             <img src={assets.code_icon} alt="Code Icon" />
           </div>
         </div>
+        <div className="main-bottom">
+          <div className="search-box">
+            <input type="text" placeholder="Enter a prompt here" />
+            <div>
+              <img src="src/assets/gallery_icon.png"  />
+              <img src="src/assets/mic_icon.png"  />
+              <img src="src/assets/send_icon.png"  />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -81,3 +81,38 @@
   transform: translateY(-5px);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
 }
+.main-bottom{
+    margin: auto;
+    position: absolute;
+    bottom:15px;
+    width: 100%;
+    padding: 0px 20px;
+    max-width: 900px;
+}
+.search-box{
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #f0f4f9;
+    border-radius: 50px;
+}
+.search-box img{
+    width: 24px;
+    cursor: pointer;
+}
+.search-box input{
+    flex: 1;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 8px;
+    font-size: 18px;
+}
+.search-box div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
